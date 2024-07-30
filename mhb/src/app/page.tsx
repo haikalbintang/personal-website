@@ -1,8 +1,10 @@
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <main className="bg-[#CDE6F5] flex flex-col justify-center items-center">
         <div className="h-96 flex flex-col justify-center items-center">
           <h1 className="bg-[#25436C] text-[#8DA7BE] text-5xl py-4 px-8 rounded-3xl">
